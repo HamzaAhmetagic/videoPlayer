@@ -1,0 +1,28 @@
+video {
+	width: 700px;
+	height: 500px;
+}
+img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 43%;
+	display: none;
+}
+.main {
+	position: relative;
+	width: 700px;
+	height: 500px;
+}
+.playBtn {
+	left: 30%;
+}
+.reloadBtn {
+	left: 60%;
+}
+.main:hover .playBtn {
+	display: inline;
+}
+.main:hover .reloadBtn {
+	display: inline;
+}
